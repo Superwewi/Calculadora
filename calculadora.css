@@ -1,0 +1,26 @@
+body {
+    background-color: darkslategray;
+}
+div {
+    background-color: white;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#entradas {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.campo {
+    flex-direction: row;
+}
+.botones {
+    width: 250px;
+}
+
+button {
+    width: 30px;
+    padding: 4px;
+    margin: 4px;
+}

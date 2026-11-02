@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8"/>
+        <script src="calculadora.js" defer></script>
+        <link rel="stylesheet" href="calculadora.css" />
+    </head>
+    <body>
+        <div style="padding: 14px; margin: 14px; width: 280px">
+            <h1>Calculadora</h1>
+            <p>Esta es mi nueva calculadora, hecha por David García</p>
+            <div id="entradas">
+                <div class="campo">
+                    <label for="FactorA">Numero A:</label> <input id="FactorA" type="number"/>
+                </div>
+                <div class="campo">
+                    <label for="FactorB">Numero B:</label> <input id="FactorB" type="number"/>
+                </div>
+            </div>
+            <div class="botones">
+                <button onclick="suma()">+</button>
+                <button onclick="resta()">-</button>
+                <button onclick="multiplicación()">*</button>
+                <button onclick="división()">/</button>
+            </div>
+            <div>
+                Resultado: <span id="resultado"></span>
+            </div>
+        </div>
+    </body>
+</html>
